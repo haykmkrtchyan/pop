@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+  <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+  <RelativeLayout
+      android:id="@+id/bottompanel"
+      android:layout_width="wrap_content"
+      android:layout_height="58dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="5dp"
+      android:layout_marginEnd="4dp"
+      android:layout_marginBottom="5dp"
+      app:layout_constraintStart_toStartOf="parent">
+
+    <Button
+        android:id="@+id/bottombutton1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/oval"
+        android:text="1"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740"
+        app:backgroundTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/bottombutton2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/bottombutton1"
+        android:background="@drawable/oval"
+        android:text="2"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740"
+        app:backgroundTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/bottombutton3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/bottombutton4"
+        android:background="@drawable/oval"
+        android:text="3"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740"
+        app:backgroundTintMode="src_atop" />
+
+    <Button
+        android:id="@+id/bottombutton4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/oval"
+        android:text="4"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740"
+        app:backgroundTintMode="src_atop" />
+
+  </RelativeLayout>
+
+  <RelativeLayout
+        android:id="@+id/rightpanel"
+        android:layout_width="126dp"
+        android:layout_height="591dp"
+        android:layout_above="@+id/bottompanel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+      app:layout_constraintStart_toStartOf="parent">
+
+      <Button
+          android:id="@+id/rightpanelbutton1"
+          android:layout_width="106dp"
+          android:layout_height="52dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="5dp"
+          android:layout_marginRight="20dp"
+          android:background="@drawable/oval"
+          android:text="ՄՈՒՏՔ"
+          android:textAppearance="@style/Theme.AppCompat"
+          android:textColor="#6A4312"
+          android:textSize="10dp"
+          app:backgroundTint="#D5FF9340"
+          app:backgroundTintMode="src_atop" />
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="105dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/rightpanelbutton3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="ԻՆՖՈԲԼՈԿ"
+        android:textAlignment="center"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740"
+        app:backgroundTintMode="src_atop"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/rightpanelbutton3"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rightpanelbutton4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="իրավական \n ԱԿՏԵՐ"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740" />
+
+    <Button
+        android:id="@+id/rightpanelbutton4"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rightpanelbutton5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="ՀԿՏՀ"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740" />
+
+    <Button
+        android:id="@+id/rightpanelbutton5"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rightpanelbutton6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="ՀԱՔ-երի \n ՄԱՍԻՆ"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740" />
+
+    <Button
+        android:id="@+id/rightpanelbutton6"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="34dp"
+        android:text="ՀԱՔ-երի \n ԹԻՄԸ"
+        android:textAppearance="@style/Theme.AppCompat"
+        android:textColor="#6A4312"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD740" />
+
+  </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerpanel"
+        android:layout_width="382dp"
+        android:layout_height="273dp"
+        android:layout_above="@+id/bottompanel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toStartOf="@+id/rightpanel"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="394dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="98dp"
+            android:src="@drawable/logo"/>
+
+            <TextView
+            android:id="@+id/text"
+            android:layout_width="512dp"
+            android:layout_height="97dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="39dp"
+            android:text="Հարգելի այցելու \n դուք կարող եք ԾՐԱԳՐԵՐ բաժնում գտնել մեր Համայնքի Զարգացման Հնգամյա Ծրագրերն
+                \n ըստ տարիների, բացել ծանոթանալ նրանց հետ"
+            android:textAlignment="center"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="10dp"
+            app:backgroundTint="#FFD740" />
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="174dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="17dp"
+            android:text="ԾՐԱԳՐԵՐ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="20dp"
+            app:backgroundTint="#FFB940" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+

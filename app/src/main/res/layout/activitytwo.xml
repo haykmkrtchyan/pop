@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <RelativeLayout
+        android:id="@+id/rightpanel"
+        android:layout_width="342dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottompanel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/center"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <LinearLayout
+            android:layout_width="146dp"
+            android:layout_height="124dp"
+            android:background="#FF6565"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">>
+
+
+            <TextView
+                android:id="@+id/righttpaneltext1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ՍՈՑԻԱԼԱԿԱՆ ԾՐԱԳՐԵՐ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/rightpaneltext2"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ԱՆՀԱՏԱԿԱՆ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/righttpaneltext3"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ԹԻՐԱԽԱՅԻՆ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/leftpanel"
+        android:layout_width="342dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottompanel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toStartOf="@+id/center"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="146dp"
+            android:layout_height="124dp"
+            android:background="#FF6565"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <TextView
+                android:id="@+id/lefttpaneltext1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ԶԱՐԳԱՑՄԱՆ ԾՐԱԳՐԵՐ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/leftpanelbutton2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ՀՆԳԱՄՅԱ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/leftpaneltext3"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ՏԱՐԵԿԱՆ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_width="9dp"
+        android:layout_height="473dp"
+        android:layout_above="@+id/bottompanel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/bottompanel"
+        android:layout_width="wrap_content"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="158dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6565"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/centertpaneltext1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ՍՈՑԻԱԼԱԿԱՆ ԾՐԱԳՐԵՐ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="5dp"
+                android:background="#FF6565"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/centerbutton1"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="ՕԳՏ"
+                    android:textAppearance="@style/Theme.AppCompat"
+                    android:textColor="#6A4312"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FFD740" />
+
+                <Button
+                    android:id="@+id/centerbutton2"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="ՀԱՔ-եր"
+                    android:textAppearance="@style/Theme.AppCompat"
+                    android:textColor="#6A4312"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FFD740" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

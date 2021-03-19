@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <RelativeLayout
+        android:id="@+id/toppanel"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/centerbutton7"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/toppaneltext2"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/centerbutton6"
+            android:text="ԿՈՂՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#69F0AE" />
+
+        <Button
+            android:id="@+id/centerbutton6"
+            android:layout_width="77dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/toppaneltext2"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/centerbutton"
+            android:text="ԱՌԱՋԱՐԿ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740" />
+
+        <Button
+            android:id="@+id/centerbutton"
+            android:layout_width="63dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/toppaneltext2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ԴԵՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FF8080" />
+
+        <TextView
+            android:id="@+id/toppaneltext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_horizontal"
+            android:text="2023"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+"
+            android:textAlignment="center"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740"
+            app:backgroundTintMode="src_atop"
+            tools:ignore="RtlCompat" />
+
+
+        <TextView
+            android:id="@+id/toppaneltext2"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_below="@+id/toppaneltext1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:text="
+Աղբավայրի բարեկարգում, ցանակապատում։ Աղբի տեսակավորման բունկերների ստեղծում։
+Ծրագրի բյուջեն  15մլն դրամ։ Նպատակն է էկոլոգիապես մաքուր միջավայրի ստեղծումը, աղբի բաց կուտակումների, վտանգավոր արտանետումների վերացումը"
+            android:textAlignment="center"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740"
+            app:backgroundTintMode="src_atop"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerpanel"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@+id/toppanel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/centerbutton2"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/centertpaneltext1"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/centerbutton3"
+            android:text="ԿՈՂՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#69F0AE" />
+
+        <Button
+            android:id="@+id/centerbutton3"
+            android:layout_width="77dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/centertpaneltext1"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/centerbutton4"
+            android:text="ԱՌԱՋԱՐԿ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740" />
+
+        <Button
+            android:id="@+id/centerbutton4"
+            android:layout_width="63dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/centertpaneltext1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ԴԵՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FF8080" />
+
+
+        <TextView
+            android:id="@+id/centertpaneltext1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:text="Տեղական  գարեջրի մինի արտադրության հիմնում ։
+Ծրագրի բյուջեն  25 մլն դրամ։ Նպատակն է տնայնագործության զարգացումը, հին ավանդույթների վերականգնումը։ Զբոսաշրջային հետաքրքրություն ներկայացնող կառույցի հիմնումը։ Ստեղծել եկամտի  նոր աղբյուրներ  և նոր աշխատատեղեր։  Հնարավոր է համայնք-մասնավոր համագործակցություն"
+            android:textAlignment="center"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740"
+            app:backgroundTintMode="src_atop"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottompanel"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@+id/toppanel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/bottombutton2"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/bottompaneltext1"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/bottombutton3"
+            android:text="ԿՈՂՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#69F0AE" />
+
+        <Button
+            android:id="@+id/bottombutton3"
+            android:layout_width="77dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/bottompaneltext1"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/bottombutton4"
+            android:text="ԱՌԱՋԱՐԿ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740" />
+
+        <Button
+            android:id="@+id/bottombutton4"
+            android:layout_width="63dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/bottompaneltext1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="ԴԵՄ"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FF8080" />
+
+
+        <TextView
+            android:id="@+id/bottompaneltext1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:text="Ոռոգման համակարգի բարելավում։
+Ծրագրի բյուջեն  15մլն դրամ։ Նպատակն է  բնակավայրի ներսում տնամերձ հողամասերի ոռոգման համակարգի բարելավումը՝ նոր պամպային կայանի հիմնման միջոցով։
+"
+            android:textAlignment="center"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textColor="#6A4312"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            app:backgroundTint="#FFD740"
+            app:backgroundTintMode="src_atop"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

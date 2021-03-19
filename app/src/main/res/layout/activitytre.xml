@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <RelativeLayout
+        android:id="@+id/bottompanel"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="182dp"
+            android:layout_height="251dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6565"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/centertpaneltext6"
+                android:layout_width="181dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="ԶԱՐԳԱՑՄԱՆ ԾՐԱԳՐԵՐՆ \n ԸՍՏ ՏԱՐԻՆԵՐԻ"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/centertpaneltext5"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="2022"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/centertpaneltext4"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="2023"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/centertpaneltext2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="2024"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/centertpaneltext"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="2025"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/centertpaneltext3"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="2025"
+                android:textAlignment="center"
+                android:textAppearance="@style/Theme.AppCompat"
+                android:textColor="#6A4312"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFD740"
+                app:backgroundTintMode="src_atop"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
